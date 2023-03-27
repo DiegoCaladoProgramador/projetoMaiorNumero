@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container form input, p{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.mensagemErro {
+    font-size: 12px;
+    padding: 8px;
+    background-color: red;
+    color: white;
+    margin-bottom: 8px;
+    display: none;
+}
+
+.mensagemSucesso {
+    background-color: #27ae60;
+    padding: 16px;
+    color: white;
+    display: none;
+}
+
+input.error{
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
