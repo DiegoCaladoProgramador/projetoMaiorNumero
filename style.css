@@ -23,7 +23,7 @@
     margin-top: 0.5rem;
 }
 
-.mensagemErro {
+#mensagemErro {
     font-size: 12px;
     padding: 8px;
     background-color: red;
